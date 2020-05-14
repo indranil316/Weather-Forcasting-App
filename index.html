@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Forcasting App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="v-header v-container">
+        <div class="fullscreen-video-wrap">
+            <video id="vid" src='video/vid-bg.mp4' autoplay='true' loop='true' muted></video>
+        </div>
+        <div id="header-content">
+            <h1 >WEATHER-MAX</h1>
+            <div id="form">
+                <form>
+                    <label>Enter a location for weather information</label>
+                    <input type="text" name="location" class="location" autocomplete>
+                </form>
+            </div>
+            <div id="forcast">
+                <div class="img"></div>                    
+                <div class="report">
+                    <h2><span>City Name</span><br>Weather Condition<br><span>Temperature</span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src='js/forcast.js'></script>
+    <script src='js/app.js'></script>
+</body>
+</html>
